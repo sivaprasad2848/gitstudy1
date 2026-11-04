@@ -4,3 +4,5 @@ git commit -m "message"
 git branch -M main
 git remote add origin https://github.com/sivaprasad2848/gitstudy1.git
 git push -u origin main
+git clone
+//this is used for cloning the repository
