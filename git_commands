@@ -1,9 +1,31 @@
+git --version
+//This command is used for printing the version.
+
+git config --list
+//This command will list the configuration of git in current system.
+
+git config --global user.name "username"
+//This command will configure the username of the GitHub.
+
+git config --global email.name "email"
+//This command will configure the email of the GitHub.
+
 git init
-git add
+//This command is used for initializing a folder as git directory.
+
+git add <file name/./--all>
+//This command is used for adding all the untracked files into the staging area.
+
 git commit -m "message"
-git branch -M main
-git remote add origin https://github.com/sivaprasad2848/gitstudy1.git
-git push -u origin main
-git clone
-//this is used for cloning the repository
-git branch :- Which is used for creating branches
+//This command is used to add a message to the git repository and move it to local repo.
+
+git push -u origin <branch>
+//This command is used to move a repository to a branch.
+
+git status
+//This command is used to show the status of the git or to show the untracked files.
+
+git clone url
+//This command is used to clone a remote repo to a local repo.
+
+git branch
